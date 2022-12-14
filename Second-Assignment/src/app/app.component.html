@@ -1,0 +1,28 @@
+<div>
+
+<span>{{title}} is running</span><br/>
+<p><b>1.String Interpolation</b></p>
+<p>{{message}}</p>
+
+<p><b>2.Property Binding</b></p>
+<input type="text" [placeholder]="todo" style="width: 25%;" />
+
+<p><b>3.Event Binding</b></p>
+<button (click)="changeMessage()">Change message</button>
+
+<p><b>3.Two-way Binding</b></p>
+<input type="text" [(ngModel)]="message"/>
+
+
+
+</div>
+
+
+
+
+
+<!--changeMessageAgain(message)-->
+<!--<input type="text" [placeholder]="message" id="txt1"/>
+<button (click)="changeMessageAgain()">Change message</button>-->
+<!--<input type="text" id="txt1" value="message" #keyword/>
+<button (click)="changeMessageAgain(keyword.value)">Change message</button>-->

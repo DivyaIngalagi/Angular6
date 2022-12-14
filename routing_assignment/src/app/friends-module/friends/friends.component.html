@@ -1,0 +1,10 @@
+<p>friends works!</p>
+<ul *ngFor="let name of names">
+    <!--<li>
+      {{name}}
+      </li>-->
+      <li>
+
+       <a [routerLink]="['/frds/friend', name]">{{name}}</a>
+     </li>
+</ul>

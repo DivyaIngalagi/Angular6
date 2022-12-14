@@ -1,0 +1,21 @@
+<ul>
+  <li>
+    <a routerLinkActive="active-link"
+       routerLink="/home">
+      HOME
+    </a>
+  </li>
+  
+  <li>
+    <a [routerLink]="['/downloads']">DOWNLOADS</a>
+  </li>
+  
+  <li>
+    <a routerLinkActive="active-link"
+       routerLink="/frds">
+      FRIENDS
+    </a>
+  </li>
+</ul>
+<br>
+<router-outlet></router-outlet>
